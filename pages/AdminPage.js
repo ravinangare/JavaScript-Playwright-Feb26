@@ -8,10 +8,10 @@ class AdminPage extends BasePage {
     this.addButton = 'button:has-text("Add")';
     this.searchButton = "//button[text()=' Search ']";
     this.usernameField = "(//input[@class='oxd-input oxd-input--active'])[2]";
-    this.adminusernameField = "(//div[contains(text(),'admin')])[1]";
+    this.adminusernameField = "(//*[text()='Admin'])[1]";
     this.addButton= "div.orangehrm-header-container>button.oxd-button.oxd-button--medium.oxd-button--secondary";
     this.userRole="(//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow'])[1]";
-    this.selectAdmin = "(//span[contains(text(),'admin')])[2]";
+    this.selectAdmin = "(//span[text()='Admin'])[2]";
     this.userStatus="(//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow'])[2]";
     this.SelectEnabled="//span[text()='Enabled']";
     this.searchEmployee="//input[@placeholder='Type for hints...']";
